@@ -16,7 +16,7 @@ public:
         {
             return new TreeNode(val);
         }
-        if(root->val <val)
+        if(root->val <=val)
         {
             TreeNode * newroot=new TreeNode(val);
             newroot->left=root;

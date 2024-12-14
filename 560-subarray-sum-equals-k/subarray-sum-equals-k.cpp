@@ -38,7 +38,7 @@ public:
 //     return ans;
      unordered_map<int,int>mpp;
 int n=nums.size();
-    int prefixSum[n];
+    // int prefixSum[n];
 // for(auto x:nums){
 // prefixSum[]
 // }

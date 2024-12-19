@@ -9,6 +9,7 @@ class Solution
   if (i < 0 || j < 0 || i >= g.size() || j >= g[i].size() || g[i][j] != 1) return 0;
   g[i][j] = d + 3;
   return 1;
+  
 }
 int orangesRotting(vector<vector<int>>& g, int d = 0, int fresh = 0) {
   for (auto i = 0; i < g.size(); ++i) 

@@ -8,7 +8,7 @@ public:
         bool lefttoright = true;
 
         while (!dq.empty()) {
-            int len = dq.size();
+            int len=  dq.size();
             vector<int> vec;
             while (len--){
                 if (!lefttoright) {
